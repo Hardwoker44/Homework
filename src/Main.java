@@ -54,7 +54,7 @@ public class Main {
         float massDivisionRemainder = weight2 % weight1;
         System.out.println("Разница в массе:    "+differenceWeight);
         System.out.println("Остаток от деления:    "+massDivisionRemainder);
-        System.out.println("Задание 8");
+        System.out.println("Задание 8 ");
         int individualHours = 8;
         int allHours = 640;
         int amountPeople = allHours / individualHours;
