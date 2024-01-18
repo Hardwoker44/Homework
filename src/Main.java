@@ -166,8 +166,241 @@ public class Main {
         System.out.println("Маша теперь получает " + mashaMoney +  " рублей. Головой доход вырос на " + salaryMasha + " рублей.");
         System.out.println("Денис теперь получает " + denisMoney +  " рублей. Головой доход вырос на " + salaryDenis + " рублей.");
         System.out.println("Кристина теперь получает " + cristinaMoney +  " рублей. Головой доход вырос на " + salaryCristina + " рублей.");
-
-
+        System.out.println("Домашняя работа №4");
+        System.out.println("Задание 1");
+        byte age = 17;
+        byte age0 = 19;
+        byte ageOfMajority = 18;
+        if (age >= ageOfMajority){
+            System.out.println("Если возраст человека равен " + age + " то он совершеннолетний");
+        }else {
+            System.out.println("Если возраст человека равен " + age + " то он не достиг совершеннолетия, нужно немного подождать");
+        }
+        if (age0 >= ageOfMajority){
+            System.out.println("Если возраст человека равен " + age0 + " то он совершеннолетний");
+        }else {
+            System.out.println("Если возраст человека равен " + age0 + " то он не достиг совершеннолетия, нужно немного подождать");
+        }
+        System.out.println("Задание 2");
+        byte temperature1 =3;
+        byte temperature2 =8;
+        byte temperatureMin =5;
+        if (temperature1 < temperatureMin){
+            System.out.println("На улице " + temperature1 + " градуса нужно надеть шапку");
+        } else {
+            System.out.println("На улице " + temperature1 + " градусов можно не надевать шапку");
+        }
+        if (temperature2 < temperatureMin){
+            System.out.println("На улице " + temperature2 + " градуса нужно надеть шапку");
+        } else {
+            System.out.println("На улице " + temperature2 + " градусов можно не надевать шапку");
+        }
+        System.out.println("Задание 3");
+        byte speed1 = 70;
+        byte speed2 = 50;
+        byte speedMax = 60;
+        if (speed1 > speedMax){
+            System.out.println("Если скорость "+ speed1 + " то придется заплатить штраф");
+        }else {
+            System.out.println("Если скорость "+ speed1 + " то можно ездить спокойно");
+        }
+        if (speed2 > speedMax){
+            System.out.println("Если скорость "+ speed2 + " то придется заплатить штраф");
+        }else {
+            System.out.println("Если скорость "+ speed2 + " то можно ездить спокойно");
+        }
+        System.out.println("Задание 4");
+        byte age1 = 4;
+        byte age2 = 9;
+        byte age3 = 20;
+        byte age4 = 28;
+        if (age1 > 2 && age1 < 6){
+            System.out.println("Если возраст человека равен " + age1 + " то ему нужно ходить в садик.");
+        } else if (age1 > 7 && age1 < 17){
+            System.out.println("Если возраст человека равен " + age1 + " то ему нужно ходить в школу.");
+        } else if (age1 >= 18 && age1 <= 24){
+            System.out.println("Если возраст человека равен " + age1 + " то ему нужно ходить в университет.");
+        } else if (age1 > 24){
+            System.out.println("Если возраст человека равен " + age1 + " то ему нужно ходить на работу.");
+        }
+        if (age2 > 2 && age2 < 6){
+            System.out.println("Если возраст человека равен " + age2 + " то ему нужно ходить в садик.");
+        } else if (age2 > 7 && age2 < 17){
+            System.out.println("Если возраст человека равен " + age2 + " то ему нужно ходить в школу.");
+        } else if (age2 >= 18 && age2 <= 24){
+            System.out.println("Если возраст человека равен " + age2 + " то ему нужно ходить в университет.");
+        } else if (age2 > 24){
+            System.out.println("Если возраст человека равен " + age2 + " то ему нужно ходить на работу.");
+        }
+        if (age3 > 2 && age3 < 6){
+            System.out.println("Если возраст человека равен " + age3 + " то ему нужно ходить в садик.");
+        } else if (age3 > 7 && age3 < 17){
+            System.out.println("Если возраст человека равен " + age3 + " то ему нужно ходить в школу.");
+        } else if (age3 >= 18 && age3 <= 24){
+            System.out.println("Если возраст человека равен " + age3 + " то ему нужно ходить в университет.");
+        } else if (age3 > 24){
+            System.out.println("Если возраст человека равен " + age3 + " то ему нужно ходить на работу.");
+        }
+        if (age4 > 2 && age4 < 6){
+            System.out.println("Если возраст человека равен " + age4 + " то ему нужно ходить в садик.");
+        } else if (age4 > 7 && age4 < 17){
+            System.out.println("Если возраст человека равен " + age4 + " то ему нужно ходить в школу.");
+        } else if (age4 >= 18 && age4 <= 24){
+            System.out.println("Если возраст человека равен " + age4 + " то ему нужно ходить в университет.");
+        } else if (age4 > 24){
+            System.out.println("Если возраст человека равен " + age4 + " то ему нужно ходить на работу.");
+        }
+        System.out.println("Задание 5");
+        byte age5 = 4;
+        byte age6 = 8;
+        byte age7 = 16;
+        if (age5 < 5){
+            System.out.println("Если возраст ребенка равен " + age5 + " то ему нельзя кататься на атракционе.");
+        } else if (age5 > 5 && age5 < 14){
+            System.out.println("Если возраст ребенка равен " + age5 + " то ему можно кататься на атракционе в сопровождении взрослого");
+        } else if (age5 > 14){
+            System.out.println("Если возраст ребенка равен " + age5 + " то ему можно кататься на атракционе без сопровождении взрослого");
+        }
+        if (age6 < 5){
+            System.out.println("Если возраст ребенка равен " + age6 + " то ему нельзя кататься на атракционе.");
+        } else if (age6 > 5 && age6 < 14){
+            System.out.println("Если возраст ребенка равен " + age6 + " то ему можно кататься на атракционе в сопровождении взрослого");
+        } else if (age6 > 14){
+            System.out.println("Если возраст ребенка равен " + age6 + " то ему можно кататься на атракционе без сопровождении взрослого");
+        }
+        if (age7 < 5){
+            System.out.println("Если возраст ребенка равен " + age7 + " то ему нельзя кататься на атракционе.");
+        } else if (age7 > 5 && age7 < 14){
+            System.out.println("Если возраст ребенка равен " + age7 + " то ему можно кататься на атракционе в сопровождении взрослого");
+        } else if (age7 > 14){
+            System.out.println("Если возраст ребенка равен " + age7 + " то ему можно кататься на атракционе без сопровождении взрослого");
+        }
+        System.out.println("Задание 6");
+        byte capacity = 102;
+        byte seatingPlaces = 60;
+        byte numberPassenger1 = 39;
+        byte numberPassenger2 = 68;
+        byte numberPassenger3 = 104;
+        if (numberPassenger1 <= capacity && numberPassenger1 > seatingPlaces){
+            System.out.println("Все сидячие места в вагоне уже заняты, остались только стоячие места.");
+        } else if (numberPassenger1 <= seatingPlaces){
+            System.out.println("В вагоне есть сидячие места.");
+        } else if (numberPassenger1 > capacity){
+            System.out.println("В вагоне не осталось мест.");
+        }
+        if (numberPassenger2 <= capacity && numberPassenger2 > seatingPlaces){
+            System.out.println("Все сидячие места в вагоне уже заняты, остались только стоячие места.");
+        } else if (numberPassenger2 <= seatingPlaces){
+            System.out.println("В вагоне есть сидячие места.");
+        } else if (numberPassenger2 > capacity){
+            System.out.println("В вагоне не осталось мест.");
+        }
+        if (numberPassenger3 <= capacity && numberPassenger3 > seatingPlaces){
+            System.out.println("Все сидячие места в вагоне уже заняты, остались только стоячие места.");
+        } else if (numberPassenger3 <= seatingPlaces){
+            System.out.println("В вагоне есть сидячие места.");
+        } else if (numberPassenger3 > capacity){
+            System.out.println("В вагоне не осталось мест.");
+        }
+        System.out.println("Задание 7");
+        byte one = 1;
+        byte two = 2;
+        byte three = 3;
+        if (one > two && one > three){
+            System.out.println(one);
+        }else if (two > one && two > three){
+            System.out.println(two);
+        }else if (three > one && three > two){
+            System.out.println(three);
+        }
+        System.out.println("Домашняя работа №5");
+        System.out.println("Задание 1");
+        byte clientOS = 1;
+        switch (clientOS){
+            case 0:
+                System.out.println("Установите версию приложения для iOS по ссылке");
+                break;
+            case 1:
+                System.out.println("Установите версию приложения для Android по ссылке");
+                break;
+            default:
+                System.out.println("Ошибка");
+        }
+        System.out.println("Задание 2");
+        byte clientIOS = 1;
+        byte clientAndroid = 0;
+        short yearOfIssueClient1 = 2012;
+        byte myClient1 = 1;
+        short yearOfIssueClient2 = 2022;
+        byte myClient2 = 0;
+        short limitingYearOfRelease = 2015;
+        if (myClient1 == clientIOS && yearOfIssueClient1 < limitingYearOfRelease){
+            System.out.println("Установите облегченную версию приложения для iOS по ссылке.");
+        }else if (myClient1 == clientIOS && yearOfIssueClient1 > limitingYearOfRelease){
+            System.out.println("Установите версию приложения для iOS по ссылке");
+        }else if (myClient1 == clientAndroid && yearOfIssueClient1 < limitingYearOfRelease){
+            System.out.println("Установите облегченную версию приложения для Android по ссылке");
+        }else if (myClient1 == clientAndroid && yearOfIssueClient1 > limitingYearOfRelease){
+            System.out.println("Установите версию приложения для Android по ссылке");
+        }
+        if (myClient2 == clientIOS && yearOfIssueClient2 < limitingYearOfRelease){
+            System.out.println("Установите облегченную версию приложения для iOS по ссылке.");
+        }else if (myClient2 == clientIOS && yearOfIssueClient2 > limitingYearOfRelease){
+            System.out.println("Установите версию приложения для iOS по ссылке");
+        }else if (myClient2 == clientAndroid && yearOfIssueClient2 < limitingYearOfRelease){
+            System.out.println("Установите облегченную версию приложения для Android по ссылке");
+        }else if (myClient2 == clientAndroid && yearOfIssueClient2 > limitingYearOfRelease){
+            System.out.println("Установите версию приложения для Android по ссылке");
+        }
+        System.out.println("Задание 3");
+        short year = 2021;
+        short startYear = 1584;
+        if (year > startYear && year % 4 == 0 && year % 100 != 0 || year > startYear && year % 400 == 0) {
+            System.out.println(year + " год является високосным.");
+        } else {
+            System.out.println(year + " год не является високосным.");
+        }
+        System.out.println("Задание 4");
+        byte deliveryDistance = 95;
+        byte day = 1;
+        byte distance1 = 20;
+        byte distance2 = 60;
+        byte distance3 = 100;
+        if (deliveryDistance <= distance1){
+            System.out.println("Потребуется дней: " + day);
+        } else if (deliveryDistance >= distance1 && deliveryDistance <= distance2){
+            System.out.println("Потребуется дней: " + day + day);
+        } else if (deliveryDistance >= distance2 && deliveryDistance <= distance3){
+            System.out.println("Потребуется дней: " + (day + day + day));
+        } else if (deliveryDistance > distance3){
+            System.out.println("Доставки нет");
+        }
+        System.out.println("Задание 5");
+        byte monthNumber = 7;
+        switch (monthNumber){
+            case 12:
+            case 1:
+            case 2:
+                System.out.println("Зима");
+                break;
+            case 3:
+            case 4:
+            case 5:
+                System.out.println("Весна");
+                break;
+            case 6:
+            case 7:
+            case 8:
+                System.out.println("Лето");
+                break;
+            case 9:
+            case 10:
+            case 11:
+                System.out.println("Осень");
+                break;
+            default:
+                System.out.println("Ошибка");
+        }
 
 
 
